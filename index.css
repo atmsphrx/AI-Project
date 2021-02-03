@@ -1,39 +1,7 @@
-*, *:before, *:after {
-    box-sizing: border-box;
-}
 body{
-    margin: 0;
-}
-
-/* flex-direction:column;
-    align-items:center;
-
-
-
-    position: relative;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    min-height: 600px;
-    background-size:cover;
-    background: linear-gradient(180deg, #4568DC 0%, #AF6AB3 100%), #4568DC;*/
-
-.main-overlay {
-
-
-
-}
-
-.background{
-    position: absolute;
-    width: 1024px;
-    height: 1440px;
-    left: 0px;
-    top: 1024px;
-    background: linear-gradient(180deg, #4568DC 0%, #AF6AB3 100%), #4568DC;
-    transform: rotate(-90deg);
+    background: linear-gradient(90deg, #4568DC 0%, #AF6AB3 100%), #4568DC;
+    display: flex;
+    justify-content: center;
 }
 
 .textAI {
@@ -48,12 +16,12 @@ body{
     font-weight: 800;
     font-size: 90px;
     line-height: 108px;
-
     text-align: center;
 
     color: #FFFFFF;
 }
-.textDescr {
+
+.textApp {
     position: absolute;
     width: 958px;
     height: 120px;
@@ -71,7 +39,18 @@ body{
 
 }
 
-.text-area{
+.brainImage{
+    position: absolute;
+    width: 560px;
+    height: 340px;
+    left: 752px;
+    top: 372px;
+
+    border: none;
+
+}
+
+.textArea{
     position: absolute;
     width: 560px;
     height: 240px;
@@ -82,11 +61,27 @@ body{
     border: 2px solid #731C99;
     box-sizing: border-box;
     border-radius: 20px;
+}
 
-
+textarea::placeholder{
 
 }
-.btn {
+
+
+.wholeLine{
+    position: absolute;
+    width: 1180px;
+    height: 90px;
+    left: 132px;
+    top: 851.81px;
+
+    background: #FFFFFF;
+    border: 2px solid #731C99;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.checkButton{
     font-family: 'Exo 2', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -106,27 +101,195 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 
+    outline: none;
+
 }
 
-.btn:hover {
+.checkButton:hover {
     background: #B070CC;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none;
 }
 
-.btn:active {
+.checkButton:active {
     background: #5E2C73;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none;
 }
 
-.img-brain{
+.names{
     position: absolute;
-    width: 560px;
-    height: 340px;
-    left: 752px;
-    top: 372px;
-    border-radius: 20px;
-    color: #B1AFAF;
+    left: 43.89%;
+    right: 43.61%;
+    top: 86.13%;
+    bottom: 11.04%;
+
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* second text */
+
+    color: #5C5C5C;
 }
+
+.githubImage{
+    position: absolute;
+    left: 76.53%;
+    right: 20.69%;
+    top: 85.63%;
+    bottom: 10.56%;
+}
+
+.vkImage{
+    position: absolute;
+    left: 81.04%;
+    right: 16.18%;
+    top: 85.63%;
+    bottom: 10.47%;
+}
+
+.fbImage{
+    position: absolute;
+    left: 85.56%;
+    right: 11.67%;
+    top: 85.63%;
+    bottom: 10.47%;
+}
+
+.logoImage{
+    position: absolute;
+    left: 11.94%;
+    right: 86.18%;
+    top: 85.92%;
+    bottom: 10.86%;
+}
+
+.firstCube{
+    position: absolute;
+    width: 160.89px;
+    height: 160.89px;
+    left: 115px;
+    top: 478.19px;
+
+    background: #FFFFFF;
+    opacity: 0.15;
+    border-radius: 20px;
+    transform: rotate(-30deg);
+}
+
+.secondCube{
+    position: absolute;
+    width: 99.3px;
+    height: 99.3px;
+    left: 333.47px;
+    top: 649.24px;
+
+    background: #FFFFFF;
+    opacity: 0.2;
+    border-radius: 20px;
+    transform: rotate(-12.3deg);
+
+}
+
+.thirdCube{
+    position: absolute;
+    width: 130.38px;
+    height: 130.38px;
+    left: 612.94px;
+    top: 486.96px;
+
+    background: #FFFFFF;
+    opacity: 0.1;
+    border-radius: 20px;
+    transform: rotate(-98.29deg);
+}
+
+.fourthCube{
+    position: absolute;
+    width: 99.3px;
+    height: 99.3px;
+    left: 815.65px;
+    top: 723px;
+
+    background: #FFFFFF;
+    opacity: 0.25;
+    border-radius: 20px;
+    transform: rotate(30deg);
+}
+
+.fifthCube{
+    position: absolute;
+    width: 84.09px;
+    height: 84.09px;
+    left: 1198.75px;
+    top: 307px;
+
+    background: #FFFFFF;
+    opacity: 0.1;
+    border-radius: 20px;
+    transform: rotate(17.83deg);
+}
+
+.sixthCube{
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    left: 225px;
+    top: 939.5px;
+
+    background: #FFFFFF;
+    opacity: 0.3;
+    border-radius: 20px;
+    transform: rotate(-30deg);
+}
+
+.seventhCube{
+    position: absolute;
+    width: 130.38px;
+    height: 130.38px;
+    left: 597.95px;
+    top: 885.21px;
+
+    background: #FFFFFF;
+    opacity: 0.3;
+    border-radius: 20px;
+    transform: rotate(15deg);
+}
+
+.eighthCube{
+    position: absolute;
+    width: 84.09px;
+    height: 84.09px;
+    left: 1073.75px;
+    top: 859px;
+
+    background: #FFFFFF;
+    opacity: 0.3;
+    border-radius: 20px;
+    transform: rotate(17.83deg);
+}
+
+.ninthCube{
+    position: absolute;
+    width: 130.38px;
+    height: 130.38px;
+    left: 1110px;
+    top: 897.19px;
+
+    background: #FFFFFF;
+    opacity: 0.3;
+    border-radius: 20px;
+    transform: rotate(-30deg);
+}
+
 
 
 
