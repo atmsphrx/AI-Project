@@ -32,7 +32,7 @@ html, body{
 .content {
     display:flex;
     width: 80%;
-    height: 100%;
+    height: 96.5%;
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;     
@@ -125,8 +125,8 @@ input, select, textarea{
 }
 
 .btn {
-    width: 38%;
-    height: 100%; 
+    width: 223px;
+    height: 66px;
     font-family: 'Exo 2', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -200,12 +200,16 @@ background-image: url("../img/Group 19.jpg") no-repeat;
 background-size: 20px;
 background-position: 0 1px;
 
+
+
+
+
 } */
 .footer {
+    justify-content: space-between;
     width:100%;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;   
     height: 10%;
     padding-right: 25px;
@@ -227,14 +231,12 @@ background-position: 0 1px;
    }
   }
 .names {
-
     font-family: 'Exo 2', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 140%;
     line-height: 100%;    
     display: flex;
-    text-align: center;    
     color: #5C5C5C;
 }
 
@@ -363,4 +365,10 @@ background-position: 0 1px;
     opacity: 0.3;
     border-radius: 20px;
     transform: rotate(-30deg);
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+    padding-right:97px
 }
