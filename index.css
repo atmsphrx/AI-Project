@@ -27,7 +27,7 @@ html, body{
 .wrapper::before {
     content: "";
     position: absolute;
-    width: 150vh;
+    width: 100vh;
     height: 100vw;
     z-index: -1;
     background: linear-gradient(180deg, #4568DC 0%, #AF6AB3 100%), #4568DC;
