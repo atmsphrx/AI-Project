@@ -314,7 +314,7 @@ select {
     }
 
     #wrapper_result::before {
-        width: 780px;
+        width:1024px;
 
     }
 
@@ -327,14 +327,15 @@ select {
      }
 
      #wrapper_result {
-        height: 760px;
+        height: 1024px;
         justify-content: space-around;
         
      }
 
     .container{
         height:100%;
-        width: 87%;
+        width: 100%;
+        margin: 0 auto;
         justify-content: space-around;
         align-items: center;
     }
@@ -342,6 +343,7 @@ select {
     .all-body {
         align-items: center;
         justify-content: space-around;
+        margin: 0 auto;
         height: 98%;
         width: 310px;
     }
